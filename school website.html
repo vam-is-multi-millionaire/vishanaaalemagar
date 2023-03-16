@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shree Bhawane Secondary School</title>
+    <style>
+        
+        *{
+            box-sizing:border-box;
+        }
+        
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        #main_container{
+            width:100%;
+            height:100vh;
+            background-image: url("background.jpg");
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+        #navbar{
+            width:100%;
+            height:80px;
+            background:#DAA06D;
+            padding:10px;
+        }
+    
+        #brand_logo{
+            width:60px;
+            margin:0px;
+            padding:5px;
+            padding-left:5px;
+            border-radius:50px;
+            background:#25E2E4;
+            float:left;
+        }
+        
+        #brand_logo_img{
+            width:50px;
+        }
+        
+        #menus{
+            float:left;
+        }
+        #menu-ul{
+            list-style: none;
+            margin:0px;
+            margin-top:20px;
+        }
+        
+        #menu-ul li{
+            display:inline;
+            padding:15px; 
+        }
+        
+        #menu-ul li a{
+            text-decoration: none;
+            color:white;
+            font-family:arial;
+            
+        }
+        #right-side-menu{
+            float:right;
+            padding:10px;
+            width:400px;
+            height:50px;
+            padding-top:20px;
+        }
+        #link-login{
+            font-family: arial;
+            text-decoration: none;
+            color:white;
+            margin-left:200px;
+        }
+        
+        #menu-item:hover{
+            background: #E8954C;
+        }
+        
+        #submenu{
+            position:absolute;
+            width:130px;
+            height:450px;
+            padding:15px;
+            background: #DAA06D;
+            box-shadow: 4px 0px 2px 0px rgba(0,0,0,0.5);
+            display:none;
+            margin-top:5px;
+        } 
+        
+        #submenu-item:hover{
+            background: #E8954C;
+        }
+        
+        .menu-class:hover #submenu{
+            display: block;
+        }
+        
+        #class{
+            position:absolute;
+            width:130px;
+            height:450px;
+            padding:15px;
+            background: #DAA06D;
+            box-shadow: 4px 0px 2px 0px rgba(0,0,0,0.5);
+            display:none;
+            margin-top:5px;
+            margin-left: 110px;
+        }
+        
+        #class-item:hover{
+            background: #E8954C;
+        }
+        
+        .class-menu:hover #class{
+            display:block;
+        }
+        
+    </style>
+    </head>
+    <body>
+        
+        <div id="main_container">
+            
+        <div id="navbar">
+            
+            <div id="brand_logo">
+                <img src="logo.png" alt="brand_logo" id="brand_logo_img">
+            </div>
+            
+            <div id="menus">
+            <ul id="menu-ul">
+                 <li style="color:white; cursor:pointer;" id="menu-item" class="menu-class">Registraion <img src="down%20icon.png" width="18">
+                <ul id="submenu">
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class1.html">Class 1</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class2.html">Class 2</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class3.html">Class 3</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class4.html">Class 4</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class5.html">Class 5</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class6.html">Class 6</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class7.html">Class 7</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class8.html">Class 8</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class9.html">Class 9</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class10.html">Class 10</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class11.html">Class 11</a></li><br><br>
+                    <li id="submenu-item"><a id="submenu-link" href="registration/class12.html">Class 12</a></li>
+                     </ul> 
+                     
+                     
+                </li>
+                 <li id="menu-item" class="class-menu"><a href="#">Class <img src="down%20icon.png" width="18"></a>
+                     <ul id="class">
+                         <li id="class-item"><a id="class-link" href="#">Class 1</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 2</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 3</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 4</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 5</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 6</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 7</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 8</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 9</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 10</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 11</a></li><br>
+                         <br>
+                         <li id="class-item"><a id="class-link" href="#">Class 12</a></li><br>
+                     </ul>        
+                
+                </li>
+                 <li id="menu-item"><a href="#">Teachers</a></li>
+                 <li id="menu-item"><a href="#">Blog</a></li>
+                 <li id="menu-item"><a href="#">About Us</a></li>
+                 <li id="menu-item"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div id="right-side-menu">
+            <a href="login/login.html" id="link-login" style="float:left;">LOGIN</a>
+                <img src="icon2.png" alt="lang icon" height="30px" width="50px"style="width:50px; margin:0px; margin-top:-5px; float:left; margin-left:30px; cursor:pointer;">
+            
+            </div> 
+            
+            </div>
+       
+        </div>
+        
+        
+    </body>
+    
+</html>
